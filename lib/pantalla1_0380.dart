@@ -11,23 +11,21 @@ class pantalla1_0380 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Card Pantalla 1 Matus 0380"),
-        backgroundColor: Color(0xffbe89a8),
+        backgroundColor: Color(0xffe491d5),
       ),
       body: Center(
-        child: Card(
-            shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-            color: Color(0xffe0a4d1),
-            child: Padding(
-              padding: EdgeInsets.all(20),
-              child: Text(
-                "Card Matus",
-                style: TextStyle(
-                  fontSize: 30,
-                  color: Color(0xfff4cdec),
-                ),
-              ),
-            )),
+        child: Container(
+          color: Color(0xfff6a8e7),
+          width: 200,
+          height: 200,
+          padding: EdgeInsets.all(32),
+          margin: EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+          alignment: Alignment.center,
+          child: Text(
+            'Vanya Matus 0380',
+            style: TextStyle(fontSize: 30, color: Colors.black),
+          ),
+        ),
       ),
     );
   } //fin widget
